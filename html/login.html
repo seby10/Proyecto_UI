@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="https://kit.fontawesome.com/bca20a4a61.js" crossorigin="anonymous"></script>
     <title>Iniciar Sesión</title>
 </head>
+
 <body>
-    
+    <div class="logo">
+        <i class="fa-solid fa-dumbbell"></i>
+    </div>
+
+    <h1>FitTrainer MC</h1>
+
+    <div class="login-card">
+        <h2>Iniciar Sesión</h2>
+        <p>Ingresa tus credenciales para acceder a tu cuenta</p>
+
+        <div class="form-group">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" name="correo" id="correo" placeholder="example@gmail.com">
+        </div>
+
+        <div class="form-group password-group">
+            <label for="contrasenia">Contraseña</label>
+            <a href="#" class="olvido">¿Olvidaste tu contraseña?</a>
+            <input type="password" name="contrasenia" id="contrasenia" placeholder="••••••••••••••••••••">
+        </div>
+
+        <div class="recuerdame">
+            <input type="checkbox" name="recordarme" id="recordarme">
+            <label for="recordarme">Recordarme</label>
+        </div>
+
+        <a href="#" class="btn">Iniciar Sesión</a>
+
+        <p class="register-text">¿No tienes una cuenta? <a href="#" class="registrate">Regístrate!</a></p>
+    </div>
+
 </body>
+
 </html>
