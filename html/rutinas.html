@@ -10,24 +10,37 @@
 </head>
 
 <body>
-    <header class="navbar">
-
-        <div class="logo">
-            <div class="logo-container">
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="header-logo">
                 <i class="fa-solid fa-dumbbell"></i>
             </div>
-                <span style="font-size: 25px;">FitTrainer MC</span>
+            <h1 class="header-title">Fit Trainer MC</h1>
         </div>
 
-        <nav class="menu">
-            <a href="#" class="active"><i class="fa-solid fa-table-list"></i> Rutinas</a>
-            <a href="#"><i class="fa-solid fa-users"></i> Alumnos</a>
+        <nav class="header-nav">
+            <a href="#" class="nav-item active">
+                <i class="fa-solid fa-clipboard-list"></i>
+                Rutinas
+            </a>
+            <a href="alumnos.html" class="nav-item">
+                <i class="fa-solid fa-users"></i>
+                Alumnos
+            </a>
+            <img src="../imgs/profile_trainer.png" alt="Usuario" class="user-profile">
         </nav>
-        <div class="user-circle"></div>
     </header>
 
     <main class="container">
-        <h1 class="section-title">Rutinas</h1>
+        <!-- Page Header -->
+        <div class="page-header">
+            <h2 class="page-title">Rutinas</h2>
+            <a href="#" class="btn-nuevo">
+                <i class="fa-solid fa-plus"></i>
+                Nuevo
+            </a>
+        </div>
 
         <div class="summary-cards">
             <div class="card">
@@ -54,7 +67,6 @@
             <div class="search-new">
                 <input type="text" placeholder="Buscar Rutina">
                 <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <button class="new-btn"><i class="fa-solid fa-plus"></i>Nuevo</button>
             </div>
         </div>
 
@@ -140,9 +152,40 @@
             </div>
         </div>
 
-        <button class="view-more-btn">Ver Más</button>
+        <div class="view-more-container">
+            <button class="view-more-btn">Ver Más</button>
+        </div>
 
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FitTrainer MC</h3>
+                <p>Tu plataforma integral para la gestión de entrenamientos personalizados y seguimiento de alumnos.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <p><a href="#">Rutinas</a></p>
+                <p><a href="#">Alumnos</a></p>
+                <p><a href="#">Perfil</a></p>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Conecta con Nosotros</h3>
+                <p><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
+                <p><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+                <p><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitTrainer MC. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
