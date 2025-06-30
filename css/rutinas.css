@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu';
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -98,9 +100,9 @@ body {
   font-size: large;
 }
 
-.menu a:hover{
-    color: #ffa168;
-    border-color: #ffa168;
+.menu a:hover {
+  color: #ffa168;
+  border-color: #ffa168;
 }
 
 .menu a.active {
@@ -221,9 +223,9 @@ input[type="text"] {
   transform: translateY(-2px);
 }
 /* RESOLVER ICON + */
-.new-btn i{
-    margin-left: 1rem;
-    text-align: center;
+.new-btn i {
+  margin-left: 1rem;
+  text-align: center;
 }
 
 /* ROUTINE CARDS */
@@ -256,10 +258,10 @@ input[type="text"] {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
-  
 }
 
-.view-btn, .edit-btn {
+.view-btn,
+.edit-btn {
   border-radius: 6px;
   padding: 0.4rem 0.8rem;
   cursor: pointer;
@@ -271,7 +273,7 @@ input[type="text"] {
   border: none;
 }
 
-.view-btn:hover{
+.view-btn:hover {
   background-color: #4a7a8f;
 }
 
@@ -281,16 +283,14 @@ input[type="text"] {
   border: none;
 }
 
-.edit-btn:hover{
+.edit-btn:hover {
   background-color: #6bb8cf;
 }
 
-.routine-card:hover{
-    transform: scale(1.05);
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
+.routine-card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-
-
 
 .view-more-container {
   display: flex;
@@ -302,17 +302,17 @@ input[type="text"] {
   padding: 10px 20px;
   font-size: 12px;
   background-color: transparent;
-  border: 2px solid #EA6C36;
+  border: 2px solid #ea6c36;
   border-radius: 10px;
-  color: #EA6C36;
-  font-family: 'Rubik', sans-serif;
+  color: #ea6c36;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .view-more-btn:hover {
-  background-color: #EA6C36;
+  background-color: #ea6c36;
   color: white;
   transform: translateY(-2px);
 }
